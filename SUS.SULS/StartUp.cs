@@ -20,7 +20,7 @@ namespace SUS.SULS
         {
             serviceCollection.Add<IUsersService, UsersService>();
             serviceCollection.Add<IProblemsService, ProblemsService>();
-            serviceCollection.Add<ISubmissonService, SubmissonsService>();
+            serviceCollection.Add<ISubmissionsService, SubmissonsService>();
         }
     }
 }

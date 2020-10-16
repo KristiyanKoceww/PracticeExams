@@ -1,0 +1,4 @@
+C:\Users\User\Desktop\PracticeExams\SUS.MvcFramework.Tests\obj\Debug\netcoreapp3.1\SUS.MvcFramework.Tests.csprojAssemblyReference.cache
+C:\Users\User\Desktop\PracticeExams\SUS.MvcFramework.Tests\obj\Debug\netcoreapp3.1\SUS.MvcFramework.Tests.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\PracticeExams\SUS.MvcFramework.Tests\obj\Debug\netcoreapp3.1\SUS.MvcFramework.Tests.AssemblyInfo.cs
+C:\Users\User\Desktop\PracticeExams\SUS.MvcFramework.Tests\obj\Debug\netcoreapp3.1\SUS.MvcFramework.Tests.csproj.CoreCompileInputs.cache

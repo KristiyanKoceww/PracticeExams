@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SUS.SULS.ViewModels
 {
-   public class SubmissionViewModel
+   public class CreateViewModel
     {
         public string Name { get; set; }
 

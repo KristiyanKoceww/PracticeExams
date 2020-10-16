@@ -14,20 +14,20 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (var problem in Model)
+                @foreach (var submissions in Model.Submissions)
                 {
 
-               
-                <tr class="row">
-                    <td class="col-lg-3 suls-text-color">@problem.Username</td>
-                    <td class="col-lg-3 suls-text-color">@problem.AchievedResult / @problem.MaxPoints</td>
-                    <td class="col-lg-3 suls-text-color">@problem.CreatedOn</td>
-                    <td class="col-lg-3 suls-text-color">
-                        <div class="button-holder">
-                            <a href="/Submissions/Delete?id=@problem.SubmissionId" class="btn btn-warning">Delete</a>
-                        </div>
-                    </td>
-                </tr>
+
+                    <tr class="row">
+                        <td class="col-lg-3 suls-text-color">@submissions.Username</td>
+                        <td class="col-lg-3 suls-text-color">@submissions.AchievedResult / @submissions.MaxPoints (@submissions.Percentage %)</td>
+                        <td class="col-lg-3 suls-text-color">@submissions.CreatedOn.ToShortDateString()</td>
+                        <td class="col-lg-3 suls-text-color">
+                            <div class="button-holder">
+                                <a href="/Submissions/Delete?id=@submissions.SubmissionId" class="btn btn-warning">Delete</a>
+                            </div>
+                        </td>
+                    </tr>
                 }
             </tbody>
         </table>
