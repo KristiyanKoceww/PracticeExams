@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{D058481A-B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SUS.MvcFramework.Tests", "SUS.MvcFramework.Tests\SUS.MvcFramework.Tests.csproj", "{618B3213-02EA-4E28-B5D1-9F7BC2EDCFDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SUS.SULS", "SUS.SULS\SUS.SULS.csproj", "{921CEFC9-8071-4B73-9A44-95AAD0B32D2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SUS.SULS", "SUS.SULS\SUS.SULS.csproj", "{921CEFC9-8071-4B73-9A44-95AAD0B32D2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedTrip", "SharedTrip\SharedTrip.csproj", "{28CF07CF-A47C-4841-AE77-4A1A3A62BFB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,12 +37,17 @@ Global
 		{921CEFC9-8071-4B73-9A44-95AAD0B32D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{921CEFC9-8071-4B73-9A44-95AAD0B32D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{921CEFC9-8071-4B73-9A44-95AAD0B32D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28CF07CF-A47C-4841-AE77-4A1A3A62BFB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28CF07CF-A47C-4841-AE77-4A1A3A62BFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28CF07CF-A47C-4841-AE77-4A1A3A62BFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28CF07CF-A47C-4841-AE77-4A1A3A62BFB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{921CEFC9-8071-4B73-9A44-95AAD0B32D2E} = {D058481A-B479-499D-ADB8-9108A526A334}
+		{28CF07CF-A47C-4841-AE77-4A1A3A62BFB0} = {D058481A-B479-499D-ADB8-9108A526A334}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DE8A1FE-A195-4206-8DF0-E23F1C7707C8}
