@@ -8,6 +8,7 @@ namespace SharedTrip.Models
     {
         public Trip()
         {
+            this.Id = Guid.NewGuid().ToString();
             this.UserTrips = new HashSet<UserTrip>();
         }
 

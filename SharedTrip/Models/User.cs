@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace SharedTrip.Models
@@ -7,6 +8,7 @@ namespace SharedTrip.Models
     {
         public User()
         {
+            this.Id = Guid.NewGuid().ToString();
             this.UserTrips = new HashSet<UserTrip>();
         }
         public string Id { get; set; }
@@ -16,7 +18,7 @@ namespace SharedTrip.Models
         [Required]
         public string Email { get; set; }
         [Required]
-        [MaxLength(20)]
+       
         public string Password { get; set; }
         public virtual ICollection<UserTrip> UserTrips{ get; set; }
     }
